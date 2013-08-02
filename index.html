@@ -5,10 +5,13 @@
 
     <script language="JavaScript">
     <!--
-        document.bgColor = "#000099";
-
+        
         function showStuff() {
             document.getElementById("thisText").style.display = 'block';
+        }
+
+        function changeBackground() {
+            document.body.style.background = "#000099";
         }
     //-->
     </script>
@@ -26,7 +29,7 @@
      </style>
 
 </head>
-<body>
+<body onload="changeBackground('red');">
 
     <div style="text-align:center">
 
